@@ -1,16 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recomendações - Livro e Filmes</title>
 </head>
 <body>
-    <main>
-    
-    </main>
-    <header>
-        
+    <header class="topo" id="topo">
+        <a class="logo" href="#topo">
+            <div class="logo-icon">R</div>
+            Recomendações
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#topo">Início</a></li>
+                <li><a href="#livros">Livros</a></li>
+                <li><a href="#filmes">Filmes</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
+    <main>
+        <section class="hero">
+            <h1>Descubra sua próxima história</h1>
+            <p>Seja bem-vindo(a)! Escolha suas recomendações de hoje entre os melhores livros e filmes do nosso acervo.</p>
+            <a class="botao" href="#livros">Ver Recomendações</a>
+        </section>
+
+        <section class="secao" id="livros">
+            <h2>Livros Recomendados</h2>
+            <div class="grade limpa">
+                <article class="card">
+                    <img src='img/Duna.jpg' alt="Capa do livro Duna" width="200" height="300">
+                    <div class="card-conteudo">
+                        <h3>Duna</h3>
+                        <p class="autor">Por Frank Herbert</p>
+                        <p class="estrelas">★★★★★</p>
+                        <p>Uma obra-prima da ficção científica sobre política, religião e sobrevivência no planeta desértico de Arrakis.</p>
+                    </div>
+                </article>
+
+                <article class="card destaque">
+                    <span class="selo">Mais Lido</span>
+                    <img src='img/O hobbit.jpg' alt="Capa do livro O Hobbit" width="200" height="300">
+                    <div class="card-conteudo">
+                        <h3>O Hobbit</h3>
+                        <p class="autor">Por J.R.R. Tolkien</p>
+                        <p class="estrelas">★★★★★</p>
+                        <p>Uma aventura inesquecível de Bilbo Bolseiro em uma jornada repleta de magia, dragões e tesouros.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src='img/1984.jpg' alt="Capa do livro 1984" width="200" height="300">
+                    <div class="card-conteudo">
+                        <h3>1984</h3>
+                        <p class="autor">Por George Orwell</p>
+                        <p class="estrelas">★★★★☆</p>
+                        <p>Um clássico distópico atemporal sobre vigilância governamental, liberdade e manipulação da verdade.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="secao" id="filmes">
+            <h2>Filmes Imperdíveis</h2>
+            <div class="grade limpa">
+                <article class="card">
+                    <img src='img/Interestelar-filme.jpg' alt="Capa do filme Interstellar" width="200" height="300">
+                    <div class="card-conteudo">
+                        <h3>Interstellar</h3>
+                        <p class="autor">Dir. Christopher Nolan</p>
+                        <p class="estrelas">★★★★★</p>
+                        <p>Uma jornada emocionante através de um buraco de minhoca no espaço em busca de um novo lar para a humanidade.</p>
+                    </div>
+                </article>
+
+                <article class="card destaque">
+                    <span class="selo">Aclamado</span>
+                    <img src='img/Matrix-filme.jpg' alt="Capa do filme Matrix" width="200" height="300">
+                    <div class="card-conteudo">
+                        <h3>Matrix</h3>
+                        <p class="autor">Dir. As Irmãs Wachowski</p>
+                        <p class="estrelas">★★★★★</p>
+                        <p>Um jovem programador descobre a chocante verdade sobre a sua realidade e o seu papel na luta pela libertação.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src='img/A origem-filme.jpg' alt="Capa do filme A Origem" width="200" height="300">
+                    <div class="card-conteudo">
+                        <h3>A Origem</h3>
+                        <p class="autor">Dir. Christopher Nolan</p>
+                        <p class="estrelas">★★★★☆</p>
+                        <p>Ladrões especializados em invadir o subconsciente humano recebem a missão de plantar uma ideia na mente de um alvo.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
