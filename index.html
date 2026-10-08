@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recomendações - Livro e Filmes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="topo" id="topo">
@@ -22,11 +23,30 @@
     </header>
     <main>
         <section class="hero">
-            <h1>Descubra sua próxima história</h1>
-            <p>Seja bem-vindo(a)! Escolha suas recomendações de hoje entre os melhores livros e filmes do nosso acervo.</p>
-            <a class="botao" href="#livros">Ver Recomendações</a>
-        </section>
+        <h1>Seja bem-vindo(a), escolha sua recomendação de hoje:</h1>
+    
+    <!-- Botões Grandes: LIVROS ou FILMES -->
+            <div class="opcoes-midia">
+                <a class="btn-midia" href="#livros">LIVROS</a>
+                <span class="divisor-ou">ou</span>
+                <a class="btn-midia" href="#filmes">FILMES</a>
+            </div>
 
+    <hr class="linha-divisora">
+
+    <!-- Faixa de Gêneros -->
+            <div class="generos-container">
+        <h2>Gêneros</h2>
+                <div class="generos-tags">
+                    <a href="#" class="badge-genero">Romance</a>
+                    <a href="#" class="badge-genero">Suspense</a>
+                    <a href="#" class="badge-genero">Fantasia</a>
+                    <a href="#" class="badge-genero">Terror</a>
+                    <a href="#" class="badge-genero">Ficção</a>
+                </div>
+            </div>
+        </section>
+    
         <section class="secao" id="livros">
             <h2>Livros Recomendados</h2>
             <div class="grade limpa">
@@ -105,6 +125,6 @@
         <p>Entre em contato: recomenda.tudo@gmail.com</p>
         <p>&copy; 2026 RecomendaTudo | Todos os direitos reservados</p>
     </footer>
-    
+
 </body>
 </html>
